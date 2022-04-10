@@ -1,0 +1,84 @@
+{
+
+  "serverConfig": {
+    "type": "wordpress",
+    "url": "https://www.ggturkey.com",
+    "forgetPassword":"https://www.ggturkey.com/wp-login.php?action=lostpassword"
+  },
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showLogo": true,
+      "showMenu": true,
+      "showSearch": false
+    },
+    {
+      "layout" : "sliderItem",
+      "name": "",
+      "category": 60
+    },
+    {
+      "layout" : "apexstats"
+    },
+    {
+      "layout" : "marketitems"
+    },
+    {
+      "layout" : "sliderList",
+      "type" :"",
+      "name": "Apex Legends'den Makaleler",
+      "category": 108
+    },
+    {
+      "name": "Öne Çıkanlar",
+      "image": "",
+      "layout": "twoColumn",
+      "category": 106
+    },
+    {
+      "name": "Tüm Haber Makaleleri",
+      "image": "",
+      "layout": "fourColumn",
+      "category": 60
+    },
+    {
+      "layout" : "largeCardHorizontalListItems",
+      "imageBorder": 10,
+      "category": 97,
+      "name": "APEX KAHRAMANLARI"
+    }
+  ],
+  "Setting": {
+    "MainColor": "#0373FF",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "apextracker",
+      "icon": "assets/icons/tabs/stats.png"
+    },
+    {
+      "layout": "apexilan",
+      "icon": "assets/icons/tabs/list.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png",
+      "showSearch": false
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png",
+      "showChat": false
+    }
+  ],
+  "SplashScreen": {
+    "type": "animated",
+    "data" : "assets/images/splashscreen.png"
+  }
+}
