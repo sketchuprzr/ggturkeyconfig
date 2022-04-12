@@ -10,41 +10,75 @@
       "layout": "logo",
       "showLogo": true,
       "showMenu": true,
-      "showSearch": false
+      "showSearch": true
+    },
+    {
+      "layout":"bannerImage",
+      "design":"swiper",
+      "marginLeft":15.0,
+      "marginRight":15.0,
+      "items":[
+        {
+          "category":292,
+          "image":"https://trello-attachments.s3.amazonaws.com/5f8fe6093cd3ef24d9ede5f5/1185x561/e13d41fd04e4da0833097ab4e893c8c5/Mobile_Template_1b.png"
+        },
+        {
+          "blog": 4401,
+          "image":"https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png"
+        },
+        {
+          "image":"https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
+          "url_launch":"https://support.inspireui.com/help-center/articles/11/13/177/home-screen"
+        },
+        {
+          "image":"https://www.ggturkey.com/media/2022/02/resim_2022-02-27_043436.png",
+          "tab":"search"
+        },
+        {
+          "image":"https://www.ggturkey.com/media/2022/02/resim_2022-02-27_043436.png",
+          "url":"https://support.inspireui.com/help-center/articles/11/13/177/home-screen"
+        },
+        {
+          "image":"https://www.ggturkey.com/media/2022/02/resim_2022-02-27_043436.png",
+          "screen":"search"
+        }
+      ],
+      "isSlider":true,
+      "autoPlay":true,
+      "intervalTime":8,
+      "showNumber":true,
+      "showBackground":false
     },
     {
       "layout" : "sliderItem",
       "name": "",
-      "category": 60
+      "category": 292
     },
     {
-      "layout" : "apexstats"
-    },
-    {
-      "layout" : "marketitems"
+      "layout" : "apexlegends"
     },
     {
       "layout" : "sliderList",
       "type" :"",
       "name": "Apex Legends'den Makaleler",
-      "category": 108
+      "category": 292
     },
     {
       "name": "Öne Çıkanlar",
       "image": "",
       "layout": "twoColumn",
-      "category": 106
+      "category": 292
     },
     {
       "name": "Tüm Haber Makaleleri",
       "image": "",
       "layout": "fourColumn",
-      "category": 60
+      "category": 292
     },
     {
       "layout" : "largeCardHorizontalListItems",
       "imageBorder": 10,
-      "category": 97,
+      "category": 292,
       "name": "APEX KAHRAMANLARI"
     }
   ],
